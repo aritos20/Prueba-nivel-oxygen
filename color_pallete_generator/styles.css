@@ -1,0 +1,58 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #2C2C2C;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.header h1 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.circles {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 66px;
+}
+
+.circles .circle {
+    height: 73px;
+    width: 73px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    border: 5px solid #FFFFFF;
+}
+
+.circles .circle:hover {
+    width: 88px;
+    height: 88px;
+    background-color: red;
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.input-div p {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.input input {
+    max-width: 600px;
+}

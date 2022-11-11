@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Unit converter</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img class="arrow-icon" src="./images/Icon.svg" alt="two arrows, one pointing to left and the other one to the right">
+            <p>unit converter</p>
+        </div>
+    </header>
+    <main>
+        <section class="convert-box">
+            <div class="converter">
+                <p class="convert-title">convert</p>
+                <div class="converter-select">
+                    <select name="units" id="unit_converter">
+                        <option value="km_to_miles">km to miles</option>
+                        <option value="miles_to_km">miles to km</option>
+                        <option value="feet_to_meters">feet to meters</option>
+                        <option value="meters_to_feet">meters to feet</option>
+                        <option value="cm_to_inches">cm to inches</option>
+                        <option value="inches_to_cm">inches to cm</option>
+                    </select>
+                    <input type="text" id="input">
+                </div>
+                <div class="result">
+                    <p id="result" class="convert-result"></p>
+                    <p id="result-unit" class="convert-result-unit"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Terms of service</p>
+            <p>Privacy policy</p>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
